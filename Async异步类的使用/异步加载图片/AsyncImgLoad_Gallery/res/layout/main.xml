@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<FrameLayout android:layout_width="fill_parent"
+		android:layout_height="150dip">
+
+		<!-- 自定义的Gallery -->
+
+		<com.lilin.ui.AdvGallery android:id="@+id/home_advs_gallery"
+			android:layout_width="fill_parent" android:layout_height="150dp"
+			android:fadingEdge="none" android:spacing="0dip" />
+
+
+	</FrameLayout>
+
+</LinearLayout>

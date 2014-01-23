@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<archivedetail>
+	<archives>
+		<title>test1</title>
+		<sender>Jack</sender>
+		<time>2011/7/23</time>
+		<content>test12223244234</content>
+	</archives>
+	<archives>
+		<title>test2</title>
+		<sender>Tom</sender>
+		<time>2011/7/24</time>
+		<content>test12223244234</content>
+	</archives>
+</archivedetail>

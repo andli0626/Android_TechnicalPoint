@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_margin="5dp" android:layout_height="fill_parent">
+
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:textColor="#FFFF00" android:textSize="20sp"
+			android:layout_height="wrap_content" android:text="网络运营商: " />
+		<TextView android:layout_width="fill_parent"
+			android:textSize="20sp" android:id="@+id/network_text"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:textColor="#FFFF00" android:textSize="20sp"
+			android:layout_height="wrap_content" android:text="IMEI: " />
+		<EditText android:layout_width="wrap_content"
+			android:textSize="20sp" android:id="@+id/imei_et"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:textColor="#FFFF00" android:textSize="20sp"
+			android:layout_height="wrap_content" android:text="IMSI: " />
+		<EditText android:layout_width="wrap_content"
+			android:textSize="20sp" android:id="@+id/imsi_et"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:textColor="#FFFF00" android:textSize="20sp"
+			android:layout_height="wrap_content" android:text="ROM: " />
+		<TextView android:layout_width="wrap_content"
+			android:textSize="20sp" android:id="@+id/rom_et"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:textColor="#FFFF00" android:textSize="20sp"
+			android:layout_height="wrap_content" android:text="MAC: " />
+		<TextView android:layout_width="wrap_content"
+			android:textSize="20sp" android:id="@+id/mac_et"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:textColor="#FFFF00" android:textSize="20sp"
+			android:layout_height="wrap_content" android:text="SDCard: " />
+		<TextView android:layout_width="wrap_content"
+			android:textSize="20sp" android:id="@+id/sdcard_et"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:textColor="#FFFF00" android:textSize="20sp"
+			android:layout_height="wrap_content" android:text="处理器: " />
+		<TextView android:layout_width="wrap_content"
+			android:textSize="20sp" android:id="@+id/cpu_et"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:textColor="#FFFF00" android:textSize="20sp"
+			android:layout_height="wrap_content" android:text="Android版本: " />
+		<TextView android:layout_width="wrap_content"
+			android:textSize="20sp" android:id="@+id/version_et"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:textColor="#FFFF00" android:textSize="20sp"
+			android:layout_height="wrap_content" android:text="手机型号: " />
+		<TextView android:layout_width="wrap_content"
+			android:textSize="20sp" android:id="@+id/style_et"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:textColor="#FFFF00" android:textSize="20sp"
+			android:layout_height="wrap_content" android:text="设备序列号: " />
+		<TextView android:layout_width="wrap_content"
+			android:textSize="20sp" android:id="@+id/number_et"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+
+</LinearLayout>

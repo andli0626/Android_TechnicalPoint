@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 应用名称 -->
+    <string name="app_name">sqlitedemo</string>
+    <!-- 数据库名称 -->
+    <string name="db_name">sqlite_db</string>
+    <!-- 备份数据库名称 -->
+    <string name="db_backup_name">backup_db</string>
+    <!-- 数据库的绝对路径 -->
+    <string name="dbpath">/data/data/com.lilin.sqlite/databases/sqlite_db</string>
+    <!-- 数据库所在文件夹 -->
+    <string name="dbfold">/data/data/com.lilin.sqlite/databases</string>
+
+    <!-- 日志保存路径 -->
+    <string name="logpath">/sdcard/sqlitedemo/log</string>
+
+</resources>

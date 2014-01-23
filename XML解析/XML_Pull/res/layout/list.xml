@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="wrap_content"
+	android:background="#98F5FF" android:layout_width="fill_parent">
+	<LinearLayout android:orientation="horizontal"
+	android:layout_marginLeft="10dp" android:layout_marginTop="10dp"
+	android:layout_marginRight="10dp" android:layout_height="wrap_content"
+	android:layout_width="fill_parent">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:gravity="center"
+			android:text="id：  " android:textColor="#FF0000" android:textSize="17sp"></TextView>
+		<TextView android:id="@+id/id_text" android:layout_width="wrap_content"
+
+			android:layout_height="wrap_content" android:gravity="center"
+			android:textColor="#000000" android:textSize="17sp"></TextView>
+		<TextView android:layout_width="wrap_content"
+			android:layout_marginLeft="10dp" android:layout_height="wrap_content"
+			android:gravity="center" android:text="姓名：  " android:textColor="#FF0000"
+			android:textSize="17sp"></TextView>
+		<TextView android:id="@+id/name_text" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#000000"
+			android:textSize="17sp"></TextView>
+		<TextView android:text="年龄：  " android:layout_width="wrap_content"
+			android:layout_marginLeft="10dp" android:layout_height="wrap_content"
+			android:textColor="#FF0000" android:textSize="17sp"></TextView>
+		<TextView android:id="@+id/age_text" 
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="#000000" android:textSize="17sp"></TextView>
+	</LinearLayout>
+</LinearLayout>
